@@ -1,0 +1,200 @@
+{
+    "version": "1.1.411",
+    "time": "1790515842266",
+    "generalDiagnostics": [],
+    "summary": {
+        "filesAnalyzed": 2,
+        "errorCount": 0,
+        "warningCount": 0,
+        "informationCount": 0,
+        "timeInSec": 1.48
+    },
+    "typeCompleteness": {
+        "packageName": "docstring_example",
+        "packageRootDirectory": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example",
+        "moduleName": "docstring_example",
+        "moduleRootDirectory": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example",
+        "ignoreUnknownTypesFromImports": false,
+        "pyTypedPath": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example/py.typed",
+        "exportedSymbolCounts": {
+            "withKnownType": 10,
+            "withAmbiguousType": 0,
+            "withUnknownType": 0
+        },
+        "otherSymbolCounts": {
+            "withKnownType": 0,
+            "withAmbiguousType": 0,
+            "withUnknownType": 0
+        },
+        "missingFunctionDocStringCount": 3,
+        "missingClassDocStringCount": 3,
+        "missingDefaultParamCount": 0,
+        "completenessScore": 1,
+        "modules": [
+            {
+                "name": "docstring_example"
+            },
+            {
+                "name": "docstring_example.docstring_example"
+            }
+        ],
+        "symbols": [
+            {
+                "category": "class",
+                "name": "docstring_example.docstring_example.MyBaseClass",
+                "referenceCount": 3,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyBaseClass.method1",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "class",
+                "name": "docstring_example.docstring_example.MyMixin",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "",
+                        "severity": "warning",
+                        "message": "No docstring found for class \"docstring_example.docstring_example.MyMixin\""
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyMixin.method2",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "class",
+                "name": "docstring_example.docstring_example.MyOtherMixin",
+                "referenceCount": 2,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "",
+                        "severity": "warning",
+                        "message": "No docstring found for class \"docstring_example.docstring_example.MyOtherMixin\""
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyOtherMixin.method3",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": []
+            },
+            {
+                "category": "class",
+                "name": "docstring_example.docstring_example.MyClass",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "",
+                        "severity": "warning",
+                        "message": "No docstring found for class \"docstring_example.docstring_example.MyClass\""
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyClass.method1",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example/docstring_example.py",
+                        "severity": "warning",
+                        "message": "No docstring found for function \"docstring_example.docstring_example.MyClass.method1\"",
+                        "range": {
+                            "start": {
+                                "line": 40,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 40,
+                                "character": 15
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyClass.method2",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example/docstring_example.py",
+                        "severity": "warning",
+                        "message": "No docstring found for function \"docstring_example.docstring_example.MyClass.method2\"",
+                        "range": {
+                            "start": {
+                                "line": 43,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 43,
+                                "character": 15
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "category": "method",
+                "name": "docstring_example.docstring_example.MyClass.method3",
+                "referenceCount": 1,
+                "isExported": true,
+                "isTypeKnown": true,
+                "isTypeAmbiguous": false,
+                "diagnostics": [
+                    {
+                        "file": "/mnt/c/Users/radug/github/docstring-example/src/docstring_example/docstring_example.py",
+                        "severity": "warning",
+                        "message": "No docstring found for function \"docstring_example.docstring_example.MyClass.method3\"",
+                        "range": {
+                            "start": {
+                                "line": 46,
+                                "character": 8
+                            },
+                            "end": {
+                                "line": 46,
+                                "character": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

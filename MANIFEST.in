@@ -1,0 +1,3 @@
+include requirements.txt
+include src/docstring_example/py.typed
+prune getdoc.py

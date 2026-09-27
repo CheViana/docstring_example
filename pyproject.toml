@@ -1,0 +1,32 @@
+[build-system]
+# setuptools v77 adds PEP 639 support
+requires = ["setuptools >= 77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docstring_example"
+description = "pyright missing docstring in base class example"
+authors = [{name = "cheviana", email = "nobody@gmail.com"}]
+license = "MIT OR Apache-2.0"
+license-files = ["LICENSE*"]
+keywords = [
+    "pyright",
+]
+classifiers = [
+    "Intended Audience :: Developers",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.11",
+    "Typing :: Typed",
+]
+requires-python = ">=3.10"
+dependencies = [
+]
+version = "0.0.1"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.pyright]
+pythonVersion = "3.10"
+reportUnnecessaryTypeIgnoreComment = true
+typeCheckingMode = "strict"
